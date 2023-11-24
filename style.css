@@ -1,0 +1,32 @@
+.container{
+  
+}
+.result{
+  font-weight: 800;
+  font-size: larger;
+  padding: 20px;
+  width: 110px;
+  color: aliceblue;
+  text-align: end;
+  background-color: rgb(74, 78, 78);
+}
+.operators{
+  display: grid;
+  grid-template-columns: repeat(5,30px);
+}
+.numbers{
+  display: grid;
+  grid-template-columns: repeat(3,50px);
+}
+.button{
+  color: aliceblue;
+  text-align: center;
+  height: 40px; 
+  font-weight: 800;
+  font-size: larger;
+  background-color: rgb(151, 158, 158);
+}
+.box0{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
